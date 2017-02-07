@@ -1,4 +1,65 @@
-
+/*header*/
+body{
+  width:100%;
+  background-image:url(../images/header.jpg);
+  background-repeat:no-repeat;
+  background-size: 100%
+}
+header{
+  background-color: #b7c9c3;
+  font-weight: bold;
+  font-size: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+#mobile1{
+  margin-top: 100px;
+  margin-left: 750px
+}
+#txtmobile1{
+  margin-right: 110px;
+  margin-top: -20px;
+  color: #e65c01
+}
+#mobile2{
+  padding-left: 750px
+}
+#txtmobile2{
+  margin-top: -20px;
+  margin-right: 110px;
+  color: #e65c01
+}
+#mail{
+  margin-top: -50px;
+  padding-left: 750px
+}
+#txtmail{
+  margin-top: 50px;
+  margin-right: 110px;
+  margin-top: -15px;
+  color: #e65c01
+}
+#nav{
+  text-decoration: none;
+  text-align: center;
+  padding: 0;
+  margin: 0
+}
+#nav li{
+  display: inline;
+  list-style: none;
+  margin: 0 10px
+}
+#nav a{
+  text-decoration: none;
+}
+.accueilo{
+  color: #e65c01
+}
+.accueilb{
+  color: #12449b
+}
 /* ACTU ************************************/
 .actu{
   display: inline-block;
@@ -85,9 +146,9 @@ footer img{
 /*section **********************************/
 section
 {
-  border-top: 2px solid black;
-  border-left: 2px solid black;
-  border-bottom: 2px solid black;
-  border-right: 2px solid black;
-  border-radius: 10px
+ border: 2px solid black;
+ border-radius: 10px;
+ display: inline-block;
+ background-image: url(../images/bg-title.png);
+ background-repeat: no-repeat;
 }
