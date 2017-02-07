@@ -1,3 +1,4 @@
+
 /* ACTU ************************************/
 .actu{
   display: inline-block;
@@ -40,7 +41,7 @@ a{
   width:70px;
   padding:5px;
 }
-
+/* HEADER *********************************/
 
 /* FOOTER *********************************/
 body{
@@ -79,4 +80,14 @@ footer img{
   display: block;
   float: left;
   margin: 5px 0px;
+}
+
+/*section **********************************/
+section
+{
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  border-radius: 10px
 }
