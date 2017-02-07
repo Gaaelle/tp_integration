@@ -1,8 +1,53 @@
+
+/* ACTU ************************************/
+.actu{
+  display: inline-block;
+  border: 2px #b5b5b5 outset;
+  border-radius: 25px;
+  box-shadow: 5px 5px 10px grey;
+  margin-bottom: 20px;
+  padding:10px;
+}
+.titre{
+  color:#12449b
+}
+
+p .img_actu{
+  display: block;
+  clear: both;
+}
+.img_actu{
+  text-align: left;
+  display: block;
+  float: left;
+  width: 20%;
+
+}
+
+p{
+  text-align: right;;
+  display: block;
+  float: right;;
+  width: 80%;
+}
+a{
+  text-decoration: none;
+}
+.bouton_partager{
+  background-color: #12449b;
+  color: white;
+  border-radius:5px;
+  text-align: center;
+  width:70px;
+  padding:5px;
+}
 /* HEADER *********************************/
+
 /* FOOTER *********************************/
 body{
   height:100%;
 }
+
 footer {
   background-color: #e65c01;
   font-family: fantasy;
@@ -12,7 +57,6 @@ footer {
   min-width: 360px;
   max-height: 100px;
   display: inline-block;
-
 }
 
 footer ul{
