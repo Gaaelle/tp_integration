@@ -1,8 +1,13 @@
+
 /* HEADER ********************************/
+
+/*header*/
+
 body{
   width:100%;
   background-image:url(../images/header.jpg);
   background-repeat:no-repeat;
+
   background-size: 1000px 200px
 }
 header{
@@ -11,22 +16,41 @@ header{
   font-weight: bold;
   font-size: 20px;
   max-width: 100%;
+
+  background-size: 100%
+}
+header{
+  background-color: #b7c9c3;
+  font-weight: bold;
+  font-size: 20px;
+  width: 100%;
+
   display: flex;
   justify-content: space-around;
 }
 #mobile1{
+
   padding-top: 80px;
   padding-left: 750px
 }
 #txtmobile1{
   margin-top: -65px;
   padding-left: 775px;
+
+  margin-top: 100px;
+  margin-left: 750px
+}
+#txtmobile1{
+  margin-right: 110px;
+  margin-top: -20px;
+
   color: #e65c01
 }
 #mobile2{
   padding-left: 750px
 }
 #txtmobile2{
+
   margin-top: -8px;
   padding-left: 775px;
   color: #e65c01
@@ -37,6 +61,20 @@ header{
 #txtmail{
   margin-top: -15px;
   padding-left: 780px;
+
+  margin-top: -20px;
+  margin-right: 110px;
+  color: #e65c01
+}
+#mail{
+  margin-top: -50px;
+  padding-left: 750px
+}
+#txtmail{
+  margin-top: 50px;
+  margin-right: 110px;
+  margin-top: -15px;
+
   color: #e65c01
 }
 #nav{
@@ -59,6 +97,7 @@ header{
 .accueilb{
   color: #12449b
 }
+
 /* FIN HEADER*/
 
 /*section **********************************/
@@ -82,6 +121,7 @@ section
   background-repeat: repeat-x 3;
 
 }
+
 
 /* ACTU ************************************/
 .actu{
@@ -159,4 +199,15 @@ footer img{
   display: block;
   float: left;
   margin: 5px 0px;
+}
+
+
+/*section **********************************/
+section
+{
+ border: 2px solid black;
+ border-radius: 10px;
+ display: inline-block;
+ background-image: url(../images/bg-title.png);
+ background-repeat: no-repeat;
 }
