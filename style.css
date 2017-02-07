@@ -5,8 +5,8 @@ body{
 footer {
   background-color: #e65c01;
   font-family: fantasy;
-  font-size:17px;
-  height:60px;
+  font-size:8px;
+  height:70px;
   width: 100%;
   min-width: 360px;
   max-height: 100px;
@@ -38,5 +38,4 @@ footer img{
 }
 
 .img{
-  margin: 0px 30px;
 }
