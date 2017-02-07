@@ -1,3 +1,66 @@
+/* HEADER*/
+body{
+  width:100%;
+  background-image:url(images/header.jpg);
+  background-repeat:no-repeat;
+  background-size: 1000px 200px
+}
+header{
+  padding-top: 0;
+  background-color: #b7c9c3;
+  font-weight: bold;
+  font-size: 20px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+#mobile1{
+  padding-top: 80px;
+  padding-left: 750px
+}
+#txtmobile1{
+  margin-top: -65px;
+  padding-left: 775px;
+  color: #e65c01
+}
+#mobile2{
+  padding-left: 750px
+}
+#txtmobile2{
+  margin-top: -8px;
+  padding-left: 775px;
+  color: #e65c01
+}
+#mail{
+  padding-left: 750px
+}
+#txtmail{
+  margin-top: -15px;
+  padding-left: 780px;
+  color: #e65c01
+}
+#nav{
+  text-decoration: none;
+  text-align: center;
+  padding: 0;
+  margin: 0
+}
+#nav li{
+  display: inline;
+  list-style: none;
+  margin: 0 10px
+}
+#nav a{
+  text-decoration: none;
+}
+.accueilo{
+  color: #e65c01
+}
+.accueilb{
+  color: #12449b
+}
+/* FIN HEADER*/
+
 /* FOOTER *********************************/
 body{
   height:100%;
