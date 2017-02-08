@@ -1,11 +1,13 @@
 /*header*/
 body{
+  position: relative;
   width:100%;
   background-image:url(../images/header.jpg);
   background-repeat:no-repeat;
   background-size: 100%
 }
 header{
+  margin-top: 200px;
   background-color: #b7c9c3;
   font-weight: bold;
   font-size: 20px;
@@ -13,31 +15,46 @@ header{
   display: flex;
   justify-content: space-around;
 }
+
+#blockinfo{
+  position: absolute;
+  top: -100px;
+  left: 750px
+}
+#mobilemail{
+  list-style: none
+}
 #mobile1{
-  margin-top: 100px;
-  margin-left: 750px
+  position: absolute;
+  top: 0;
+  left: 0
 }
 #txtmobile1{
-  margin-right: 110px;
-  margin-top: -20px;
+  position: absolute;
+  top: 5px;
+  left: 25px;
   color: #e65c01
 }
 #mobile2{
-  padding-left: 750px
+  position: absolute;
+  top: 25px;
+  left: 0
 }
 #txtmobile2{
-  margin-top: -20px;
-  margin-right: 110px;
+  position: absolute;
+  top: 30px;
+  left: 25px;
   color: #e65c01
 }
 #mail{
-  margin-top: -50px;
-  padding-left: 750px
+  position: absolute;
+  top: 50px;
+  left: 0
 }
 #txtmail{
-  margin-top: 50px;
-  margin-right: 110px;
-  margin-top: -15px;
+  position: absolute;
+  top: 50px;
+  left: 25px;
   color: #e65c01
 }
 #nav{
@@ -105,9 +122,6 @@ a{
 /* HEADER *********************************/
 
 /* FOOTER *********************************/
-body{
-  height:100%;
-}
 
 footer {
   background-color: #e65c01;
@@ -144,8 +158,7 @@ footer img{
 }
 
 /*section **********************************/
-section
-{
+section{
  border: 2px solid black;
  border-radius: 10px;
  display: inline-block;
