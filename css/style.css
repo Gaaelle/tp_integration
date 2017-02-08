@@ -4,6 +4,16 @@ body{
   width:100%;
   background-image:url(../images/header.jpg);
   background-repeat:no-repeat;
+
+  background-size: 1000px 200px
+}
+header{
+  padding-top: 0;
+  background-color: #b7c9c3;
+  font-weight: bold;
+  font-size: 20px;
+  max-width: 100%;
+
   background-size: 100%
 }
 header{
@@ -11,22 +21,42 @@ header{
   font-weight: bold;
   font-size: 20px;
   width: 100%;
+
   display: flex;
   justify-content: space-around;
 }
 #mobile1{
+
+  padding-top: 80px;
+  padding-left: 750px
+}
+#txtmobile1{
+  margin-top: -65px;
+  padding-left: 775px;
+
   margin-top: 100px;
   margin-left: 750px
 }
 #txtmobile1{
   margin-right: 110px;
   margin-top: -20px;
+
   color: #e65c01
 }
 #mobile2{
   padding-left: 750px
 }
 #txtmobile2{
+
+  margin-top: -8px;
+  padding-left: 775px;
+  color: #e65c01
+}
+
+#txtmail{
+  margin-top: -15px;
+  padding-left: 780px;
+
   margin-top: -20px;
   margin-right: 110px;
   color: #e65c01
@@ -39,6 +69,7 @@ header{
   margin-top: 50px;
   margin-right: 110px;
   margin-top: -15px;
+
   color: #e65c01
 }
 #nav{
@@ -61,135 +92,25 @@ header{
 .accueilb{
   color: #12449b
 }
-
-/* FOOTER *********************************/
-
-
-footer {
-  background-color: #e65c01;
-  font-family: fantasy;
-  font-size:8px;
-  height:70px;
-  width: 100%;
-  min-width: 360px;
-  max-height: 100px;
-  display: inline-block;
-}
-
-footer ul{
-  margin:0px;
-}
-
-footer ul li{
-  list-style: none;
-  float: left;
-  text-align: center;
-  line-height: 10px;
-  margin:1em;
-}
-
-footer ul li a {
-  text-decoration: none;
-  color: white;
-}
-
-footer img{
-  display: block;
-  float: left;
-  margin: 5px 0px;
-}
-
-
-/* ACTU ************************************/
-.actu{
-  display: inline-block;
-  border: 2px #b5b5b5 outset;
-  border-radius: 25px;
-  box-shadow: 5px 5px 10px grey;
-  margin-bottom: 20px;
-  padding:10px;
-  margin-right: 15px;
-}
-
-.titre{
-  color:#12449b
-}
-
-p .img_actu{
-  display: block;
-  clear: both;
-}
-
-.img_actu{
-  text-align: left;
-  display: block;
-  float: left;
-  width: 19%;
-
-}
-
-.pactu{
-  text-align: left;;
-  display: block;
-  float: right;;
-  width: 80%;
-  margin:5px;
-}
-
-a{
-  text-decoration: none;
-}
-
-.bouton_partager{
-  background-color: #12449b;
-  color: white;
-  border-radius:5px;
-  text-align: center;
-  width:70px;
-  padding:5px;
-  float:right;
-}
+/* FIN HEADER*/
 
 /*section **********************************/
 section
 {
+  border: 2px solid black;
+  border-radius: 10px;
   display: inline-block;
-  border:2px solid black;
-  border-radius: 10px
-}
-
- /* BANNIERE BLEU *****************************/
- .banniere{
-   background-color: #12449b;
-   width: 100%
- }
-
-.bg_img{
-  background-image: url("../images/bg-bloc-title.png");
+  background-image: url(../images/bg-title.png);
   background-repeat: no-repeat;
-  text-align: right;
-  width:13%;
-  color:white;
-  display: inline-block;
 }
 
-.vha{
-
-}
-
-.vehicl{
-  border: 5px #e65c01;
-}
-.vha li{
-  list-style: none;
-}
-
-/*section **********************************/
-section
+#banniere_bleue
 {
- border: 2px solid black;
- border-radius: 10px;
- display: inline-block;
- background-image: url(../images/bg-title.png);
- background-repeat: no-repeat;
+  background-color: #12449b;
+}
+
+.bloc_title
+{
+  background-image: url(../images/bg-bloc-title.png);
+  background-repeat: repeat-x 3;
 }
