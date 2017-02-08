@@ -60,7 +60,7 @@ p .img_actu{
   text-align: left;
   display: block;
   float: left;
-  width: 19%;
+  width: 18%;
 
 }
 
@@ -90,26 +90,65 @@ a{
  /* BANNIERE BLEU *****************************/
  .banniere{
    background-color: #12449b;
-   width: 100%
+   width: 100%;
  }
 
+.camsoul{
+  margin-left: 25%;
+  margin-right: 25%;
+  display:block;
+}
+
+.bg-all{
+  margin-left: auto;
+  margin-right: auto;
+}
 .bg_img{
   background-image: url("../images/bg-bloc-title.png");
   background-repeat: no-repeat;
-  text-align: right;
-  width:13%;
+  text-align: left;
+  width:23%;
   color:white;
   display: inline-block;
+  padding-left: 3em;
+  margin-left: 10px;
 }
-
 
 .vha{
+display: inline-block;
 }
 
-.vehicl{
-  border: 5px #e65c01;
-}
 .vha li{
   list-style: none;
+  clear: both;
+  min-height: 35px;
+}
+
+.vehicl {
+  border: 1px solid #e65c01;
+  border-radius: 10px;
+  width:27%;
+  margin: 0px 5px 2px 5px;
+  display:inline-block;
+}
+
+.horaire{
+  border: 1px solid #e65c01;
+  border-radius: 10px;
+  width:27%;
+  margin: 0px 5px 2px 5px;
   display: inline-block;
+}
+
+.adress{
+  border: 1px solid #e65c01;
+  border-radius: 10px;
+  width:27%;
+  margin: 0px 5px 0px 5px;
+  display: inline-block;
+}
+
+.adress img{
+  width:100%;
+  border-radius: 5px;
 }
