@@ -1,13 +1,7 @@
-/*header*/
-body{
-  position: relative;
-  width:100%;
-  background-image:url(../images/header.jpg);
-  background-repeat:no-repeat;
-  background-size: 100%
-}
+
+/* HEADER *********************************/
 header{
-  margin-top: 200px;
+  margin-top: 20px;
   background-color: #b7c9c3;
   font-weight: bold;
   font-size: 20px;
@@ -16,48 +10,26 @@ header{
   justify-content: space-around;
 }
 
-#blockinfo{
-  position: absolute;
-  top: -100px;
-  left: 750px
+#blockinfo {
+  color: #e65c01;
 }
-#mobilemail{
+
+#blockinfo img {
+  max-width: 100%;
+}
+
+#blockinfo ul {
+  margin-top: -100px;
+  margin-left: 76%  ;
   list-style: none
 }
-#mobile1{
-  position: absolute;
-  top: 0;
-  left: 0
+
+#blockinfo a {
+    color: #e65c01;
 }
-#txtmobile1{
-  position: absolute;
-  top: 5px;
-  left: 25px;
-  color: #e65c01
-}
-#mobile2{
-  position: absolute;
-  top: 25px;
-  left: 0
-}
-#txtmobile2{
-  position: absolute;
-  top: 30px;
-  left: 25px;
-  color: #e65c01
-}
-#mail{
-  position: absolute;
-  top: 50px;
-  left: 0
-}
-#txtmail{
-  position: absolute;
-  top: 50px;
-  left: 25px;
-  color: #e65c01
-}
+/*menu*/
 #nav{
+  height: 10%; width: 100%;
   text-decoration: none;
   text-align: center;
   padding: 0;
@@ -77,31 +49,9 @@ header{
 .accueilb{
   color: #12449b
 }
-/* ACTU ************************************/
-.actu{
-  display: inline-block;
-  border: 2px #b5b5b5 outset;
-  border-radius: 25px;
-  box-shadow: 5px 5px 10px grey;
-  margin-bottom: 20px;
-  padding:10px;
-}
-.titre{
-  color:#12449b
-}
+/* FIN HEADER*/
 
-p .img_actu{
-  display: block;
-  clear: both;
-}
-.img_actu{
-  text-align: left;
-  display: block;
-  float: left;
-  width: 20%;
-
-}
-
+<<<<<<< HEAD
 p{
   text-align: right;;
   display: block;
@@ -131,32 +81,24 @@ footer {
   width: 100%;
   min-width: 360px;
   max-height: 100px;
+=======
+/*section **********************************/
+section
+{
+  border: 2px solid black;
+  border-radius: 10px;
+>>>>>>> 635bd88833bd396ed3f52adcde7df8205d726c4d
   display: inline-block;
+  background-image: url(../images/bg-title.png);
+  background-repeat: no-repeat;
 }
 
-footer ul{
-  margin:0px;
+#banniere_bleue
+{
+  background-color: #12449b;
 }
 
-footer ul li{
-  list-style: none;
-  float: left;
-  text-align: center;
-  line-height: 10px;
-  margin:1em;
-}
-
-footer ul li a {
-  text-decoration: none;
-  color: white;
-}
-
-footer img{
-  display: block;
-  float: left;
-  margin: 5px 0px;
-}
-
+<<<<<<< HEAD
 /*section **********************************/
 section{
  border: 2px solid black;
@@ -164,4 +106,10 @@ section{
  display: inline-block;
  background-image: url(../images/bg-title.png);
  background-repeat: no-repeat;
+=======
+.bloc_title
+{
+  background-image: url(../images/bg-bloc-title.png);
+  background-repeat: repeat-x 3;
+>>>>>>> 635bd88833bd396ed3f52adcde7df8205d726c4d
 }
