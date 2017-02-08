@@ -108,6 +108,7 @@ footer img{
   box-shadow: 5px 5px 10px grey;
   margin-bottom: 20px;
   padding:10px;
+  margin-right: 15px;
 }
 
 .titre{
@@ -123,15 +124,16 @@ p .img_actu{
   text-align: left;
   display: block;
   float: left;
-  width: 20%;
+  width: 19%;
 
 }
 
 .pactu{
-  text-align: right;;
+  text-align: left;;
   display: block;
   float: right;;
   width: 80%;
+  margin:5px;
 }
 
 a{
@@ -145,6 +147,7 @@ a{
   text-align: center;
   width:70px;
   padding:5px;
+  float:right;
 }
 
 /*section **********************************/
@@ -156,6 +159,11 @@ section
 }
 
  /* BANNIERE BLEU *****************************/
+ .banniere{
+   background-color: #12449b;
+   width: 100%
+ }
+
 .bg_img{
   background-image: url("../images/bg-bloc-title.png");
   background-repeat: no-repeat;
@@ -166,7 +174,15 @@ section
 }
 
 .vha{
-  display: inline-block;
+
+}
+
+.vehicl{
+  border: 5px #e65c01;
+}
+.vha li{
+  list-style: none;
+}
 
 /*section **********************************/
 section
