@@ -28,22 +28,3 @@ section
   padding-left: 470px;
   margin-top: -132
 }
-
- /* BANNIERE BLEU *****************************/
-.bg_img{
-  background-image: url("../images/bg-bloc-title.png");
-  background-repeat: no-repeat;
-  text-align: right;
-  width:13%;
-  color:white;
-  display: inline-block;
-}
-
-.vha{
-  display: inline-block;
-}
-
-#banniere_bleue
-{
-  background-color: #12449b;
-}
